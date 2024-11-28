@@ -19,9 +19,9 @@ public class InstrumentApp {
         System.out.println("Categoría de instrumentos: " + Instrument.CATEGORY);
 
         // Crear instrumentos de viento
-        Flute flute = new Flute("Flute", 130.0);
-        Saxophone saxophone = new Saxophone("Saxophone", 150.0);
-        Trumpet trumpet = new Trumpet("Trumpet", 90.0);
+        Instrument flute = new Flute("Flute", 130.0);
+        Instrument saxophone = new Saxophone("Saxophone", 150.0);
+        Instrument trumpet = new Trumpet("Trumpet", 90.0);
 
         // Llamar al metodo tocar()
         flute.tocar();
